@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+   background-image:  linear-gradient(to left,aqua,yellow,orange);
+     background-size: 500% 100%;
+     animation: Degrade-animado 5s infinite alternate ;
+}
+.box-degrade{
+   white-space: 100%;
+     padding: 300px 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-shadow: 3px 3px 3px yellow;
+    }
+  @keyframes Degrade-animado{
+    0%{
+        background-position-x:0%;
+    }
+    100%{
+        background-position-x:100%;
+    }
+  }

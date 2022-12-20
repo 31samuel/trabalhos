@@ -1,0 +1,12 @@
+body{
+    background-color: blue;
+    font: 30pt arial bold normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ddddddcb;
+}
+h1{
+    text-decoration: underline;
+}

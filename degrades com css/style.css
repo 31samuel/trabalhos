@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: linear-gradient(to left,pink,yellow,purple);
+    background-size: 500%, 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+@keyframes degrade-animado{
+    0%{
+        background-position-x:0%;
+    }
+    100%{
+        background-position-x:100%;
+    }
+}
+.degrade-animado{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50vh;
+    transition:all  2s ;
+}
+h1{
+    color: purple;
+    font-size: 52px;
+    border: 2px solid purple;
+    border-radius: 23px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+h1:hover{
+   box-shadow: 0 0 14px blue,inset 0 0 14px blue;
+    text-shadow: 3px 3px 3px blue;
+    background-image: linear-gradient(pink 0%,aqua 46%, blue 100%);
+    transition: all 1s;
+}
